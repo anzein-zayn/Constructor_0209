@@ -32,6 +32,9 @@ class Peminjam
 {
     private:
         int id;
+        string nama;
+        int totalPinjaman;
+        friend class Petugas;
     public:
         void setId(int pId);
         void displayAll (Peminjam &a);
