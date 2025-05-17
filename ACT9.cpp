@@ -2,6 +2,7 @@
 using namespace std;
 #include <string>
 
+class Admin;
 class Petugas;
 class Peminjam;
 class Buku
