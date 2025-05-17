@@ -13,3 +13,12 @@ public:
     void setName(string pNama);
     friend class Peminjam;
 };
+
+class Peminjam
+{
+    private:
+        int id;
+    public:
+        void setId(int pId);
+        void displayAll (Peminjam &a);
+};
