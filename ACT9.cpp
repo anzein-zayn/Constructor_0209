@@ -10,4 +10,5 @@ private :
     string statuspinjam;
 public:
     void setName(string pNama);
+    friend class Petugas;
 }
