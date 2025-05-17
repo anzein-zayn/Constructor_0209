@@ -11,5 +11,5 @@ private :
     friend class Petugas;
 public:
     void setName(string pNama);
-    friend class Petugas;
-}
+    friend class Peminjam;
+};
