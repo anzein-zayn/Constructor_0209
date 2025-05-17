@@ -16,6 +16,17 @@ public:
     friend class Peminjam;
 };
 
+class Petugas
+{
+    private:
+        int id;
+        string nama;
+        string levelAkses;
+        friend class Admin;
+
+
+};
+
 class Peminjam
 {
     private:
